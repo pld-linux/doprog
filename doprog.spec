@@ -15,14 +15,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a simplistic utility to spawn programs on new ttys.
 
 %description -l pl
-Proste narzêdzie za pomoc± którego mo¿emy uruchomiæ program na nowym 
+Proste narzêdzie za pomoc± którego mo¿emy uruchomiæ program na nowym
 lub ju¿ istniej±cym tty.
 
 %prep
 %setup -q 
 
 %build
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
