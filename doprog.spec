@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Terminal
 Source0:	ftp://ftp.tpnet.pl/pub/sunsite.unc.edu/utils/console/%{name}-%{version}.tar.gz
+# Source0-md5:	3b3bc51111503f0fc3a549fe5ea280ff
 URL:		http://www.eleves.ens.fr:8080/home/rideau/Tunes/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
