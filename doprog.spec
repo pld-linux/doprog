@@ -21,7 +21,10 @@ lub ju¿ istniej±cym tty.
 %setup -q
 
 %build
-%{__make} CFLAGS="%{rpmcflags}" CC="%{__cc}" LDFLAGS="%{rpmldflags}"
+%{__make} \
+	CFLAGS="%{rpmcflags}" \
+	CC="%{__cc}" \
+	LDFLAGS="%{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
