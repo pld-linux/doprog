@@ -2,7 +2,7 @@ Summary:	Execute a program (with arguments) on a new tty
 Summary(pl):	Uruchamia program (z argumentami) na nowym tty
 Name:		doprog
 Version:	2.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Terminal
 Source0:	ftp://ftp.tpnet.pl/pub/sunsite.unc.edu/utils/console/%{name}-%{version}.tar.gz
