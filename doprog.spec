@@ -17,7 +17,7 @@ Proste narzêdzie za pomoc± którego mo¿emy uruchomiæ program na nowym
 lub ju¿ istniej±cym tty.
 
 %prep
-%setup -q 
+%setup -q
 
 %build
 %{__make} CFLAGS="%{rpmcflags}" CC="%{__cc}" LDFLAGS="%{rpmldflags}"
@@ -33,4 +33,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/* 
+%attr(755,root,root) %{_bindir}/*
