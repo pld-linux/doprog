@@ -5,8 +5,6 @@ Version:	2.2
 Release:	1
 License:	GPL
 Group:		Applications/Terminal
-Group(de):	Applikationen/Terminal
-Group(pl):	Aplikacje/Terminal
 Source0:	ftp://ftp.tpnet.pl/pub/sunsite.unc.edu/utils/console/%{name}-%{version}.tar.gz
 URL:		http://www.eleves.ens.fr:8080/home/rideau/Tunes/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
