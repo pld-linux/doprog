@@ -28,13 +28,16 @@ lub ju¿ istniej±cym tty.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_bindir}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man8}
 
 install doprog 	$RPM_BUILD_ROOT%{_bindir}
+install doprog.8 $RPM_BUILD_ROOT%{_mandir}/man8/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README
 %attr(755,root,root) %{_bindir}/*
+%{_mandir}/man8/*
