@@ -4,9 +4,9 @@ Name:		doprog
 Version:	2.2
 Release:	1
 License:	GPL
-Group:		Application/Console
-Group(de):	Applikationen/Konsole
-Group(pl):	Aplikacje/Konsola
+Group:		Applications/Terminal
+Group(de):	Applikationen/Terminal
+Group(pl):	Aplikacje/Terminal
 Source0:	ftp://ftp.tpnet.pl/pub/sunsite.unc.edu/utils/console/%{name}-%{version}.tar.gz
 URL:		http://www.eleves.ens.fr:8080/home/rideau/Tunes/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -22,7 +22,7 @@ lub ju¿ istniej±cym tty.
 %setup -q 
 
 %build
-%{__make}
+%{__make} CFLAGS="%{rpmcflags}" CC="%{__cc}" LDFLAGS="%{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
