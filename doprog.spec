@@ -1,5 +1,5 @@
 Summary:	Execute a program (with arguments) on a new tty
-Summary(pl.UTF-8):   Uruchamia program (z argumentami) na nowym tty
+Summary(pl.UTF-8):	Uruchamia program (z argumentami) na nowym tty
 Name:		doprog
 Version:	2.2
 Release:	2
