@@ -1,5 +1,5 @@
 Summary:	Execute a program (with arguments) on a new tty
-Summary(pl):	Uruchamia program (z argumentami) na nowym tty
+Summary(pl.UTF-8):   Uruchamia program (z argumentami) na nowym tty
 Name:		doprog
 Version:	2.2
 Release:	2
@@ -13,9 +13,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is a simplistic utility to spawn programs on new ttys.
 
-%description -l pl
-Proste narzêdzie za pomoc± którego mo¿emy uruchomiæ program na nowym
-lub ju¿ istniej±cym tty.
+%description -l pl.UTF-8
+Proste narzÄ™dzie za pomocÄ… ktÃ³rego moÅ¼emy uruchomiÄ‡ program na nowym
+lub juÅ¼ istniejÄ…cym tty.
 
 %prep
 %setup -q
